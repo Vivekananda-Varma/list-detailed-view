@@ -1,0 +1,128 @@
+body {
+    background-color: #121212;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+}
+
+#hamburger-menu {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#hamburger-menu img {
+    width: 25px;
+    height: 20px;
+}
+
+#youtube-logo img{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 20px;
+}   
+
+.searchbar {
+    margin-left: 15%;
+    padding-left: 25px;
+    width: 500px;
+    height: 30px;
+    border-width: 1px;
+    border-color:#aaa;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#user-profile-pic {
+    display:block;
+    position: absolute;
+    margin-top: 10px;
+    right: 40px;
+    top: 5px;
+}
+
+#user-profile-pic img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.video-preview {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    position: relative;
+    height: 100%;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-right: 0.8%;
+}
+
+.video-preview:hover {
+    cursor: pointer;
+}
+
+.thumbnails {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.title-wrapper {
+    position: relative;
+}
+
+.channel-logo {
+    display: block;
+    position: absolute;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.video-title {
+    margin-left: 46px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    max-height: 2.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.channel-name {
+    float: none;
+    margin-left: 46px;
+    font-family: Helvetica;
+    color:#aaa;
+    font-size: 0.7rem;
+    line-height: 0.5rem;
+}
+
+.video-info {
+    margin-left: 46px;
+    color: #aaa;;
+    font-family: Helvetica;
+    font-size: 0.7rem;
+    line-height: 0.5rem;
+} 
+
+@media only screen and (max-width: 650px) {
+    .searchbar {
+        margin: auto;
+        padding-left: 20pt;
+        width: 70%;
+        height: 25pt;
+        border-radius: 30px;
+        background-color: transparent;
+        border-width: 1pt;
+        border-color:#aaa;
+    }
+
+    .video-preview {
+        margin-top: 4%;
+        margin-right: 0.8%;
+        width: 100%;
+    }
+  }
